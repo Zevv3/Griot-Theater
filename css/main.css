@@ -1,0 +1,92 @@
+* {
+    font-family: Roboto;
+}
+
+.hero-image{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("/pic.png");
+    height: 300px;
+    width: 100%; 
+    background-repeat:repeat; 
+    background-size: cover; 
+    background-position: center; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 40pt;
+}
+
+.show-box {
+    display:flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    flex-wrap: nowrap;
+}
+
+img[src="raisin.png"] {
+    height: 100px;
+    width: 100px;
+}
+
+article {
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+button {
+    align-self: end;
+    justify-self: center;
+    background-color: #EBB625;
+}
+
+img[src="map.png"] {
+    height: 100px;
+}
+
+#bottom {
+    background-color: black;
+    margin-top: 1%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding-left: none;
+    color: white;
+}
+
+h2{
+    padding-left: 32px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:white;
+}
+
+a:click{
+    color:white;
+}
+
+#middle {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#april{
+    margin-bottom: 2%;
+}
